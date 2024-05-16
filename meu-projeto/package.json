@@ -1,0 +1,22 @@
+{
+    "name": "meu-projeto",
+    "version": "1.0.0",
+    "description": "Natureza365 é uma plataforma de compartilhamento de locais naturais, permitindo aos usuários registrar locais únicos. Com autenticação JWT para segurança, os usuários podem cadastrar locais, explorar outros registros e acessar uma API documentada pelo Swagger. Desenvolvido em Node.js com Express e Sequelize, Natureza365 integra PostgreSQL para armazenamento confiável de dados.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "pg": "^8.6.0",
+        "sequelize": "^6.6.2",
+        "swagger-jsdoc": "^6.0.0",
+        "swagger-ui-express": "^4.1.6"
+    }
+}
